@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1422"/>
+      <stop offset=".68" stop-color="#101B2C"/>
+      <stop offset="1" stop-color="#05080C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="820" cy="250" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3347" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#FF3347" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#FF3347" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cool" cx="1180" cy="40" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6E9BD6" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#6E9BD6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF6B6B" stop-opacity="0"/>
+      <stop offset=".6" stop-color="#FF7A80" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1280" height="360" fill="url(#sky)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <rect width="1280" height="360" fill="url(#cool)"/>
+  <rect width="1280" height="360" fill="url(#glow)"/>
+  <rect x="808" y="0" width="24" height="252" fill="#FF3347" opacity=".55" filter="url(#blur)"/>
+  <rect x="818.5" y="0" width="3" height="252" fill="url(#beam)"/>
+  <ellipse cx="820" cy="254" rx="150" ry="14" fill="#FF3347" opacity=".6" filter="url(#blur)"/>
+  <ellipse cx="820" cy="252" rx="26" ry="5" fill="#FFFFFF" opacity=".9"/>
+  <path d="M0 252 H1280" stroke="#FF3347" stroke-opacity=".35"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#F2F4F7">
+    <rect x="72" y="92" width="52" height="52" rx="14" fill="#FFFFFF"/>
+    <path d="M89 104v28M108 105l-11 13 11.5 13.5M89 118h8" stroke="#0B0F14" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="97" cy="118" r="4.6" fill="#FF3347"/>
+    <text x="142" y="130" font-size="40" font-weight="600" letter-spacing="-1">Khan's AI</text>
+    <text x="72" y="200" font-size="30" font-weight="500" letter-spacing="-.6">AI that works where the data is messy.</text>
+    <text x="72" y="240" font-size="15" fill="#A9B3BF" letter-spacing="2.4" font-family="Consolas, Menlo, monospace">APPLIED AI STUDIO · PESHAWAR, PAKISTAN</text>
+  </g>
+</svg>
