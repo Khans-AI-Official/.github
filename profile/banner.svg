@@ -21,6 +21,9 @@
     </linearGradient>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/></pattern>
+    <radialGradient id="khalo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FF3347" stop-opacity=".85"/><stop offset=".45" stop-color="#FF3347" stop-opacity=".35"/><stop offset="1" stop-color="#FF3347" stop-opacity="0"/></radialGradient>
+    <radialGradient id="kdot" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FF6A76"/><stop offset=".55" stop-color="#FF3347"/><stop offset="1" stop-color="#E0192F"/></radialGradient>
+    <filter id="kblur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="1.6"/></filter>
   </defs>
   <rect width="1280" height="360" fill="url(#sky)"/>
   <rect width="1280" height="360" fill="url(#grid)"/>
@@ -34,7 +37,9 @@
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#F2F4F7">
     <rect x="72" y="92" width="52" height="52" rx="14" fill="#FFFFFF"/>
     <path d="M89 104v28M108 105l-11 13 11.5 13.5M89 118h8" stroke="#0B0F14" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <circle cx="97" cy="118" r="4.6" fill="#FF3347"/>
+    <circle cx="97" cy="118" r="9.2" fill="url(#khalo)"/>
+    <circle cx="97" cy="118" r="5.5" fill="#FF3347" opacity=".7" filter="url(#kblur)"/>
+    <circle cx="97" cy="118" r="4.6" fill="url(#kdot)"/>
     <text x="142" y="130" font-size="40" font-weight="600" letter-spacing="-1">Khan's AI</text>
     <text x="72" y="200" font-size="30" font-weight="500" letter-spacing="-.6">AI that works where the data is messy.</text>
     <text x="72" y="240" font-size="15" fill="#A9B3BF" letter-spacing="2.4" font-family="Consolas, Menlo, monospace">APPLIED AI STUDIO · PESHAWAR, PAKISTAN</text>
