@@ -8,11 +8,15 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/company/111101219/"><img src="https://img.shields.io/badge/LinkedIn-Khan's%20AI-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/company/khans-ai/"><img src="https://img.shields.io/badge/LinkedIn-Khan's%20AI-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:khansai.contact@gmail.com"><img src="https://img.shields.io/badge/Email-khansai.contact%40gmail.com-FF3347?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 ---
+
+## Meet Khan's AI
+
+https://github.com/user-attachments/assets/eb383b18-6855-48aa-b7f9-9f15b06a1f66
 
 ## What we do
 
