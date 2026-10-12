@@ -38,7 +38,8 @@ https://github.com/user-attachments/assets/eb383b18-6855-48aa-b7f9-9f15b06a1f66
 
 | Project | Domain | Status |
 |---|---|---|
-| **HujraCart**: sales, inventory and shop discovery on one map for shopkeepers, field sales teams and customers. [Watch the demo](https://youtu.be/RLBLRDMYQKA) | Retail · Geospatial | 🟢 Launching |
+| **HujraCart**: sales, inventory and shop discovery on one map for shopkeepers, field sales teams and customers. [Download](https://github.com/Khans-AI-Official/HujraCart#download) · [Watch the demo](https://youtu.be/RLBLRDMYQKA) | Retail · Geospatial | 🟢 Launched · in use |
+| **FormPilot**: fills Google Forms and any website form from an Excel file, row by row. [Download](https://github.com/Khans-AI-Official/FormPilot/releases/latest) · [Watch the demo](https://youtu.be/x2Dbb3lCoCg) | Automation · Data entry | 🟢 Launched · in use |
 | **Book authentication**: unique QR code and scratch-off PIN on every printed copy to stop counterfeits | Publishing · Anti-counterfeit | 🟡 In build |
 | **Tender autopilot**: finds, reads and prices public tenders; a person gives the final go-ahead | Public procurement · Automation | 🟣 Internal tool |
 | **Machine failure forecasting**: digital-twin failure prediction with physics-informed features | Industry · Predictive maintenance | 🔵 Prototype |
